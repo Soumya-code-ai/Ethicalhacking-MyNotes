@@ -1,0 +1,17 @@
+Setting up Kali Linux in VirtualBox was a new and slightly challenging experience for me.
+I started by downloading Oracle VirtualBox and the Kali Linux VirtualBox image from the 
+official website. At first, I was confused because the downloaded Kali file didn't have a .
+7z or .zip extension, but it showed two files inside: a .vbox and a .vdi file. I initially 
+thought I had the wrong file, but later realized it was already a compressed archive that 
+looked like a folder. Since 7-Zip was not properly installed on my system, I couldn't see 
+the “Extract” option when I right-clicked. To fix this, I reinstalled 7-Zip and then 
+successfully extracted the Kali image. After extraction, I double-clicked the .vbox file, 
+which automatically opened VirtualBox and added Kali Linux to it. While setting up the VM,
+I was unsure how many CPUs to allocate and chose 2 for better performance. I also faced
+trouble locating the .vdi file during setup, until I realized it was stored inside a nested 
+folder. Once I started the VM, I logged in using the default credentials (kali/kali). I was
+confused about how to shut it down, and learned that selecting “Save the machine state” is 
+safe and doesn’t drain battery. Finally, as per my teacher’s instructions, I created a 
+dedicated folder in my main drive to store all my Kali-related codes. Overall, this process
+taught me how to carefully troubleshoot issues, understand how VirtualBox handles virtual
+machines, and organize my workspace efficiently.
