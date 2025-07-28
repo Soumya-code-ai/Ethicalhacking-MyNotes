@@ -1,0 +1,30 @@
+
+
+ 1. **TCP vs UDP**
+- **TCP (Transmission Control Protocol)** is reliable and connection-oriented. It establishes a communication channel first (via a handshake), then sends data with error-checking and acknowledgment. Great for things like file transfers, emails, and web browsing — where missing or unordered packets would cause problems.
+- **UDP (User Datagram Protocol)** is fast and connectionless. It just sends packets without setting up a connection or confirming delivery. Ideal for real-time apps like video calls, gaming, and live streaming, where speed matters more than perfect accuracy.
+
+2. **What Is a Network?**
+- A **network** allows multiple devices to communicate and share resources (files, printers, internet, etc.).
+- Uses protocols like **TCP/IP** to send and receive data.
+- Networks come in types:
+  - **LAN**: Small area, like your home or office
+  - **WAN**: Covers large areas, like continents (e.g., the Internet)
+  - Can be **wired** (Ethernet cables) or **wireless** (Wi-Fi)
+ 3. **What’s a MAC ID?**
+- The **MAC ID** (or MAC address) is a unique identifier given to a device's network adapter — sort of like a fingerprint for your machine on a local network.
+- Format: `00:1A:2B:3C:4D:5E` — 48 bits long, shown in hexadecimal.
+- Helps devices recognize each other on LANs; used in routing data at Layer 2 of the OSI model.
+- Often used for security filtering and network access control.
+
+ 4. **Bridge and Subnet**
+- A **bridge** connects two different LAN segments at the Data Link Layer. It filters and forwards traffic based on MAC addresses. It can help reduce congestion and isolate traffic intelligently.
+- A **subnet** is a split within a larger IP network. It's designed to divide and manage traffic more efficiently.
+  - Example: `192.168.1.0/24` means all addresses from `192.168.1.1` to `192.168.1.254`
+  - Subnetting improves performance and security by keeping broadcast traffic local.
+
+ 5. **IPv4 vs IPv6**
+- **IPv4**: Uses 32-bit addresses like `192.168.0.1`. It’s still widely used but has a limited pool (~4.3 billion addresses).
+- **IPv6**: Uses 128-bit addresses like `2001:0db8:85a3::8a2e:0370:7334`. It solves the exhaustion problem by supporting an almost infinite number of IPs.
+- IPv6 is also more efficient in routing, has built-in security features, and avoids network address translation (NAT).
+
